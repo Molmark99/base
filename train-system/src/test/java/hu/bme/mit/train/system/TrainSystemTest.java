@@ -26,7 +26,7 @@ public class TrainSystemTest {
 	}
 
 	@Before
-	public void before() {
+	public void before2() {
 		TrainSystem system = new TrainSystem();
 		controller = system.getController();
 		sensor = system.getSensor();
