@@ -9,6 +9,7 @@ public class TrainSensorImpl implements TrainSensor {
 	private TrainController controller;
 	private TrainUser user;
 	private int speedLimit = 5;
+	private int negativSpeedLimit = 5;
 
 	public TrainSensorImpl(TrainController controller, TrainUser user) {
 		this.controller = controller;
@@ -18,6 +19,11 @@ public class TrainSensorImpl implements TrainSensor {
 	@Override
 	public int getSpeedLimit() {
 		return speedLimit;
+	}
+
+	@Override
+	public int getNegativSpeedLimit(){
+		return negativSpeedLimit;
 	}
 
 	@Override
