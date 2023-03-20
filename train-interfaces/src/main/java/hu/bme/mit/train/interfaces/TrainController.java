@@ -4,6 +4,7 @@ public interface TrainController {
 
 	void followSpeed();
 
+
 	int unfollowSpeed();
 
 	int getReferenceSpeed();
