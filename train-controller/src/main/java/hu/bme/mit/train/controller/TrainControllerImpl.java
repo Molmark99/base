@@ -46,4 +46,10 @@ public class TrainControllerImpl implements TrainController {
 		this.step = joystickPosition;		
 	}
 
+	@Override
+	public int unfollowSpeed() {
+		// TODO Auto-generated method stub
+		throw new UnsupportedOperationException("Unimplemented method 'unfollowSpeed'");
+	}
+
 }
